@@ -4,15 +4,13 @@ itsdangerous
 Jinja2
 MarkupSafe
 Werkzeug
-
+scikit-learn
 scipy
-
+numpy
 matplotlib
 pandas
 flasgger
 streamlit
 seaborn
 
-scikit-learn= 0.24.1
-numpy=1.21.1
 
