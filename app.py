@@ -476,5 +476,5 @@ def main():
   #       add_data(blog_author,blog_title,blog_article,blog_post_date)
   #       st.success("Post::'{}' Saved".format(blog_title))
 
-if __name__ == "__main__":
-    app.run(debug=True)
+if __name__=='__main__':
+    main()
