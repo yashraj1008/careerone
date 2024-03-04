@@ -260,8 +260,8 @@ def inputlist(Name,Contact_Number,Email_address,
 
    
        
-  t = Afeed+feed    
-  output = regressor.predict([t])
+  res = Afeed+feed    
+  output = regressor.predict([res])
   
   return(output)
 
