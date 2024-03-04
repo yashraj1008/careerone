@@ -1,5 +1,5 @@
 # **1. Importing Necessary Libraries** 📚
-from sklearn.externals import joblib
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -9,10 +9,9 @@ import time
 import streamlit as st
 from db import *
 
-model = joblib.load('weights.pkl')
 
-# # pickleFile=open("weights.pkl","rb")
-# regressor=pickle.load(pickleFile) # our model
+pickleFile=open("weights.pkl","rb")
+regressor=pickle.load(pickleFile) # our model
 
 # **2. Loading Dataset**
 
