@@ -8,7 +8,7 @@ import pickle
 import time
 import streamlit as st
 from db import *
-
+regressor = LinearRegression()
 pickleFile=open("weights.pkl","rb")
 regressor=pickle.load(pickleFile) # our model
 
@@ -473,8 +473,6 @@ def main():
   #     if st.button("Add"):
   #       add_data(blog_author,blog_title,blog_article,blog_post_date)
   #       st.success("Post::'{}' Saved".format(blog_title))
-
-
 
 if __name__=='__main__':
     main()
