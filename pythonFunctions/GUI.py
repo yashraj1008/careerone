@@ -55,7 +55,7 @@ IB = dict(zip(Interested_Books,Interested_Books_code))
 Range_dict = {"poor": 0, "medium": 1, "excellent": 2}
 print(Range_dict)
 
-pip install gradio
+# pip install gradio
 
 '''import gradio as gr
 
